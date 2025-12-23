@@ -34,35 +34,11 @@ This portfolio showcases:
 * **Responsive design** – Optimized for all screen sizes
 * **Bilingual** – French and English support
 
-## 📦 Installation
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
 ## 🚀 Deployment
 
-The website can be deployed to various platforms:
-
-* **GitHub Pages** – Using GitHub Actions (see `.github/workflows`)
-* **Vercel** – Automatic deployments from GitHub
-* **Netlify** – Connect your repository for instant deployments
-
-### GitHub Pages Setup
-
-1. Push your code to a GitHub repository
-2. Enable GitHub Pages in repository settings
-3. The GitHub Action will automatically deploy on push to `main`
+The website is automatically deployed through GitHub Pages whenever updates are pushed to the repository.
+Public URL:
+👉 https://lucafuster.github.io
 
 ## 🧑‍💻 Author
 

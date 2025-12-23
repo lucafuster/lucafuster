@@ -1,13 +1,9 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
-// https://astro.build/config
 export default defineConfig({
-  // site: 'https://yourusername.github.io',
-  // base: '/mon-portfolio', // Changer avec nom epository, ou '/' si repo principal (username.github.io)
-  
-  base: '/',
+  // Remplace par ton URL GitHub finale
+  site: 'https://lucafuster.github.io',
+  base: '/lucafuster',
   integrations: [tailwind()],
-  output: 'static',
 });
